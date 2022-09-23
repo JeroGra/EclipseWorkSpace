@@ -1,0 +1,6 @@
+08:44:59 **** Incremental Build of configuration Debug for project Final programacion ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Final programacion.o" "..\\src\\Final programacion.c" 
+gcc -o "Final programacion.exe" "src\\Final programacion.o" 
+Info: Nothing to build for Final programacion
+Info: Nothing to build for Final programacion

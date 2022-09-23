@@ -1,0 +1,9 @@
+00:59:16 **** Incremental Build of configuration Debug for project TP2 Jeronimo Granadillo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPasajeros.o" "..\\src\\ArrayPasajeros.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input.o" "..\\src\\Input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2 Jeronimo Granadillo.o" "..\\src\\TP2 Jeronimo Granadillo.c" 
+gcc -o "TP2 Jeronimo Granadillo.exe" "src\\ArrayPasajeros.o" "src\\Input.o" "src\\TP2 Jeronimo Granadillo.o" 
+
+00:59:17 Build Finished. 0 errors, 0 warnings. (took 1s.224ms)
+

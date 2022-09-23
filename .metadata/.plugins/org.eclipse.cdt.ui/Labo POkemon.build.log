@@ -1,0 +1,7 @@
+19:28:08 **** Incremental Build of configuration Debug for project Labo POkemon ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -o "Labo POkemon.exe" "src\\Controller.o" "src\\Input.o" "src\\Labo POkemon.o" "src\\LinkedList.o" "src\\PokeBag.o" "src\\parser.o" 
+
+19:28:09 Build Finished. 0 errors, 0 warnings. (took 617ms)
+

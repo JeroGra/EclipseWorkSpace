@@ -1,0 +1,12 @@
+10:18:14 **** Rebuild of configuration Debug for project MyInputFunctions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MyInputFunctions.o" "..\\src\\MyInputFunctions.c" 
+..\src\MyInputFunctions.c: In function 'main':
+..\src\MyInputFunctions.c:15:6: warning: variable 'myNum' set but not used [-Wunused-but-set-variable]
+  int myNum;
+      ^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input.o" "..\\src\\Input.c" 
+gcc -o MyInputFunctions.exe "src\\Input.o" "src\\MyInputFunctions.o" 
+
+10:18:15 Build Finished. 0 errors, 1 warnings. (took 882ms)
+

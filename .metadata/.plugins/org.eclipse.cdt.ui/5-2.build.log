@@ -1,0 +1,13 @@
+18:37:32 **** Incremental Build of configuration Debug for project 5-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Validaciones.o" "..\\src\\Validaciones.c" 
+..\src\Validaciones.c: In function 'MayorImpar':
+..\src\Validaciones.c:58:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("El mayor numero impar es: %d\n", mayorImpar);
+  ^~~~~~
+..\src\Validaciones.c:58:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\Validaciones.c:58:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -o 5-2.exe "src\\5-2.o" "src\\IngresoDatos.o" "src\\Operaciones.o" "src\\Validaciones.o" 
+
+18:37:33 Build Finished. 0 errors, 2 warnings. (took 990ms)
+

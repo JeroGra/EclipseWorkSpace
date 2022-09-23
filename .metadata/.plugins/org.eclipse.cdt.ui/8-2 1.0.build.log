@@ -1,0 +1,17 @@
+12:48:04 **** Rebuild of configuration Debug for project 8-2 1.0 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\8-2 1.0.o" "..\\src\\8-2 1.0.c" 
+gcc -o "8-2 1.0.exe" "src\\8-2 1.0.o" 
+src\8-2 1.0.o: In function `main':
+C:\Users\jerob\eclipse-workspace\8-2 1.0\Debug/../src/8-2 1.0.c:18: undefined reference to `ListaProductosHardcode'
+C:\Users\jerob\eclipse-workspace\8-2 1.0\Debug/../src/8-2 1.0.c:21: undefined reference to `PedirOpcionMenu'
+C:\Users\jerob\eclipse-workspace\8-2 1.0\Debug/../src/8-2 1.0.c:25: undefined reference to `AltaDeProductos'
+C:\Users\jerob\eclipse-workspace\8-2 1.0\Debug/../src/8-2 1.0.c:41: undefined reference to `DarBajaProductos'
+C:\Users\jerob\eclipse-workspace\8-2 1.0\Debug/../src/8-2 1.0.c:56: undefined reference to `ModificarProductos'
+C:\Users\jerob\eclipse-workspace\8-2 1.0\Debug/../src/8-2 1.0.c:68: undefined reference to `ListaDeProductos'
+C:\Users\jerob\eclipse-workspace\8-2 1.0\Debug/../src/8-2 1.0.c:71: undefined reference to `ListaProductosOrdenadosPorPrecio'
+C:\Users\jerob\eclipse-workspace\8-2 1.0\Debug/../src/8-2 1.0.c:74: undefined reference to `ListaProductosOrdenadosPorDescripcion'
+collect2.exe: error: ld returned 1 exit status
+
+12:48:05 Build Failed. 8 errors, 0 warnings. (took 652ms)
+

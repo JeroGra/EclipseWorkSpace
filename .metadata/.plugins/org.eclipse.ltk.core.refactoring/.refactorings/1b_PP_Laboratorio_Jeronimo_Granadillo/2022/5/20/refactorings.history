@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;1b_PP_Laboratorio_Jeronimo_Granadillo/src/Funciones_Input_validaciones.h&apos; to &apos;FuncionesInputValidaciones.h&apos;" description="Rename resource &apos;Funciones_Input_validaciones.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Funciones_Input_validaciones.h" name="FuncionesInputValidaciones.h" stamp="1652641329434" updateReferences="true"/>
+</session>

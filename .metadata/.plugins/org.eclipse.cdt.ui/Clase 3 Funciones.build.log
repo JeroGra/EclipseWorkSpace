@@ -1,0 +1,9 @@
+16:11:55 **** Incremental Build of configuration Debug for project Clase 3 Funciones ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase 3 Funciones.o" "..\\src\\Clase 3 Funciones.c" 
+..\src\Clase 3 Funciones.c:14:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int'
+ int main(void) {
+ ^~~
+
+16:11:55 Build Failed. 1 errors, 0 warnings. (took 184ms)
+

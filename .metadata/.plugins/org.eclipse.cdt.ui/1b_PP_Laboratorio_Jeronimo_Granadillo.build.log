@@ -1,0 +1,9 @@
+10:18:04 **** Rebuild of configuration Debug for project 1b_PP_Laboratorio_Jeronimo_Granadillo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FuncionesInputValidaciones.o" "..\\src\\FuncionesInputValidaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\1b_PP_Laboratorio_Jeronimo_Granadillo.o" "..\\src\\1b_PP_Laboratorio_Jeronimo_Granadillo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ServiciosYMecanicos.o" "..\\src\\ServiciosYMecanicos.c" 
+gcc -o 1b_PP_Laboratorio_Jeronimo_Granadillo.exe "src\\1b_PP_Laboratorio_Jeronimo_Granadillo.o" "src\\FuncionesInputValidaciones.o" "src\\ServiciosYMecanicos.o" 
+
+10:18:05 Build Finished. 0 errors, 0 warnings. (took 1s.472ms)
+

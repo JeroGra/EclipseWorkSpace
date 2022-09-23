@@ -1,0 +1,27 @@
+10:18:07 **** Rebuild of configuration Debug for project Clase Alumnos ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Alumno.o" "..\\src\\Alumno.c" 
+..\src\Alumno.c: In function 'PedirUnAlumno':
+..\src\Alumno.c:17:26: error: 'eAlumno {aka struct <anonymous>}' has no member named 'curso'; did you mean 'iDcurso'?
+     scanf("%d", &miAlumno.curso.idCurso);
+                          ^
+..\src\Alumno.c: In function 'ListaAlumnosHardcode':
+..\src\Alumno.c:24:2: warning: braces around scalar initializer
+  eAlumno auxiliar[5]={{10,"Alberto",7.5,{1},OCUPADO},{99, "Jero", 9,{1},OCUPADO},{14,"Luis",5,{2},OCUPADO},{30,"Ana",9,{3},OCUPADO},{101,"Azul",3,{3},OCUPADO}};
+  ^~~~~~~
+..\src\Alumno.c:24:2: note: (near initialization for 'auxiliar[0].iDcurso')
+..\src\Alumno.c:24:2: warning: braces around scalar initializer
+..\src\Alumno.c:24:2: note: (near initialization for 'auxiliar[1].iDcurso')
+..\src\Alumno.c:24:2: warning: braces around scalar initializer
+..\src\Alumno.c:24:2: note: (near initialization for 'auxiliar[2].iDcurso')
+..\src\Alumno.c:24:2: warning: braces around scalar initializer
+..\src\Alumno.c:24:2: note: (near initialization for 'auxiliar[3].iDcurso')
+..\src\Alumno.c:24:2: warning: braces around scalar initializer
+..\src\Alumno.c:24:2: note: (near initialization for 'auxiliar[4].iDcurso')
+..\src\Alumno.c: In function 'MostrarUnAlumno':
+..\src\Alumno.c:61:96: error: 'eAlumno {aka struct <anonymous>}' has no member named 'curso'; did you mean 'iDcurso'?
+     printf("%4d %10s %4.2f %d\n", miAlumno.legajo, miAlumno.nombre, miAlumno.promedio, miAlumno.curso);
+                                                                                                ^
+
+10:18:08 Build Failed. 2 errors, 5 warnings. (took 358ms)
+

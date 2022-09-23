@@ -1,0 +1,24 @@
+10:18:03 **** Rebuild of configuration Debug for project 10-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\10-2.o" "..\\src\\10-2.c" 
+..\src\10-2.c:36:11: error: stray '\361' in program
+  int idDueño;
+           ^
+..\src\10-2.c:36:12: error: expected ':', ',', ';', '}' or '__attribute__' before 'o'
+  int idDueño;
+            ^
+..\src\10-2.c:41:6: error: stray '\361' in program
+ }eDueño;
+      ^
+..\src\10-2.c:41:7: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'o'
+ }eDueño;
+       ^
+..\src\10-2.c:48:14: error: stray '\361' in program
+     int idDueño;
+              ^
+..\src\10-2.c:48:15: error: expected ':', ',', ';', '}' or '__attribute__' before 'o'
+     int idDueño;
+               ^
+
+10:18:03 Build Failed. 6 errors, 0 warnings. (took 247ms)
+

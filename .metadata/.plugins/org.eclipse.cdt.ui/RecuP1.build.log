@@ -1,0 +1,7 @@
+12:49:06 **** Rebuild of configuration Debug for project RecuP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\RecuP1.o" "..\\src\\RecuP1.c" 
+gcc -o RecuP1.exe "src\\RecuP1.o" 
+
+12:49:08 Build Finished. 0 errors, 0 warnings. (took 1s.898ms)
+

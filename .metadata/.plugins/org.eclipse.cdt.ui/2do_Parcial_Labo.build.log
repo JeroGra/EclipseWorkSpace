@@ -1,0 +1,12 @@
+01:25:50 **** Rebuild of configuration Debug for project 2do_Parcial_Labo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PokeBag.o" "..\\src\\PokeBag.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2do_Parcial_Labo.o" "..\\src\\2do_Parcial_Labo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input.o" "..\\src\\Input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -o 2do_Parcial_Labo.exe "src\\2do_Parcial_Labo.o" "src\\Controller.o" "src\\Input.o" "src\\LinkedList.o" "src\\PokeBag.o" "src\\parser.o" 
+
+01:25:54 Build Finished. 0 errors, 0 warnings. (took 3s.683ms)
+

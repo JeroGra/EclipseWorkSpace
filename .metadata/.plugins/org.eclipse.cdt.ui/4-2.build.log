@@ -1,0 +1,9 @@
+21:06:59 **** Rebuild of configuration Debug for project 4-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\4-2.o" "..\\src\\4-2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BibliotecaPasages.o" "..\\src\\BibliotecaPasages.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BibliotecaValidacion.o" "..\\src\\BibliotecaValidacion.c" 
+gcc -o 4-2.exe "src\\4-2.o" "src\\BibliotecaPasages.o" "src\\BibliotecaValidacion.o" 
+
+21:07:00 Build Finished. 0 errors, 0 warnings. (took 1s.108ms)
+
